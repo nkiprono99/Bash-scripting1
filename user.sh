@@ -7,6 +7,7 @@
 # check users
 
 echo -n "Please enter the username "
+
 read U
 
 id ${U} > /dev/null 2>&1
